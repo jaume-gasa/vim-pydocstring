@@ -32,6 +32,13 @@ Example ``.vimrc``
 
   autocmd FileType python setlocal tabstop=4 shiftwidth=4 softtabstop=4 expandtab
 
+Activate numpy-style docstrings
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code::
+
+  let g:pydocstring_templates_dir = '~/.vim/bundle/vim-pydocstring/test/templates/numpy/'
+
 Key map
 -------
 
